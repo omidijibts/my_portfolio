@@ -1,0 +1,107 @@
+body {
+    background-color: blueviolet;
+}
+
+#container {
+/*    background-image: url(image/IMG_20180629_043920.jpg);*/
+    width: 90%;
+    background-color: papayawhip;
+}
+
+header {    
+    background-color: black;
+    margin-bottom: inherit;
+}
+#photo {
+    float: right;
+}
+#one{
+    color: purple;
+    text-shadow: 3px 2px white;
+    font-family: cursive;
+    text-align: center;
+    text-transform: uppercase;    
+    font-size: 100%;
+    letter-spacing: 10px;
+}
+#two{
+    color: white;
+    font-family: cursive;
+    text-align: center;
+}
+#three{
+    color: purple;
+}
+
+nav {
+    background-color: red;
+/*    margin: inherit;*/
+    height: 40%;
+    border: 2px solid black;
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline;
+    text-transform: uppercase;    
+}
+nav .active{
+    background-color: gainsboro;
+}
+nav li:hover:not(.active){
+    background-color: purple;
+}
+a {
+    text-decoration: none;
+    color:red;
+}
+
+.clr{
+    clear: both;
+}
+
+main {
+    float:right;
+    width:70%;
+    background-color: papayawhip;
+    
+}
+h1{
+    text-align: center;
+}
+#second {
+    float: right;
+    width: 40%;
+}
+#second li{
+       
+}
+.third {
+    float: left;
+    width: 30%;
+    background-color: papayawhip;
+    overflow: hidden;
+}
+button:hover{
+    background-color: blueviolet;
+}
+
+aside {
+    float:left;
+    width:30%;
+    background-color: darkgreen;
+    overflow: hidden;
+
+}
+input {
+    display: grid;
+}
+
+footer {
+    background-color: black;
+    color: firebrick;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
